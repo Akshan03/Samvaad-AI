@@ -66,18 +66,62 @@ body {
   }
   
   @keyframes greetings-content {
-    0% { color: #c2a5ee; content: "Hello, please select your language!"; } 
-    12.4% { color: #2ECC71; content: "नमस्तेकृपया अपनी भाषा चुनें।"; } 
-    24.6% { color: #e57842; content: "নমস্কার,আপনার ভাষা নির্বাচন করুন."; } 
-    32.8% { color: #34dfc8; content: "வணக்கம், உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்."; } 
-    2.2% { color: #c2a5ee; content: "Hello, please select your language!"; } 
-    41% { color: #c07315; content: "હેલો, કૃપા કરીને તમારી ભાષા પસંદ કરો."; } 
-    49.2% { color: #b437e6; content: "ഹലോ, ദയവായി നിങ്ങളുടെ ഭാഷ തിരഞ്ഞെടുക്കുക."; } 
-    57.4% { color: #953232; content: "హలో, దయచేసి మీ భాషను ఎంచుకోండి."; }
-    65.6% { color: #64a1dd; content: "ಹಲೋ, ದಯವಿಟ್ಟು ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."; } 
-    73.8% { color: #e09040; content: "ନମସ୍କାର, ଦୟାକରି ଆପଣଙ୍କର ଭାଷା ଚୟନ କରନ୍ତୁ |"; } 
-    82% { color: #dbea31; content: "নমস্কাৰ, অনুগ্ৰহ কৰি আপোনাৰ ভাষা নিৰ্বাচন কৰক।"; } 
-  }
+    0% {
+        color: #c2a5ee;
+        content: "Hello, please select your language!";
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+    2.2% {
+        color: #c2a5ee;
+        content: "Hello, please select your language!";
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+    12.4% {
+        color: #2ECC71;
+        content: "नमस्तेकृपया अपनी भाषा चुनें।";
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+    24.6% {
+        color: #e57842;
+        content: "নমস্কার,আপনার ভাষা নির্বাচন করুন.";
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+    32.8% {
+        color: #34dfc8;
+        content: "வணக்கம், உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்.";
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+    41% {
+        color: #c07315;
+        content: "હેલો, કૃપા કરીને તમારી ભાષા પસંદ કરો.";
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+    49.2% {
+        color: #b437e6;
+        content: "ഹലോ, ദയവായി നിങ്ങളുടെ ഭാഷ തിരഞ്ഞെടുക്കുക.";
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+    57.4% {
+        color: #953232;
+        content: "హలో, దయచేసి మీ భాషను ఎంచుకోండి.";
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+    65.6% {
+        color: #64a1dd;
+        content: "ಹಲೋ, ದಯವಿಟ್ಟು ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.";
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+    73.8% {
+        color: #e09040;
+        content: "ନମସ୍କାର, ଦୟାକରି ଆପଣଙ୍କର ଭାଷା ଚୟନ କରନ୍ତୁ |";
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+    82% {
+        color: #dbea31;
+        content: "নমস্কাৰ, অনুগ্ৰহ কৰি আপোনাৰ ভাষা নিৰ্বাচন কৰক।";
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+}
   
   
   
